@@ -1,0 +1,270 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+html {
+  margin: auto;
+  max-width: 1440px;
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 84%;
+  padding: 2.4rem 14rem;
+  color: #263238;
+  background: rgb(25, 211, 109);
+  border-bottom: 1px solid rgb(25, 211, 109);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.3);
+}
+nav .nav-brand {
+  font-size: 16pt;
+  font-weight: 600;
+  cursor: pointer;
+}
+nav .nav-brand a{
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s;
+}
+nav .nav-section {
+  display: flex;
+  align-items: center;
+}
+nav .nav-section ul {
+  list-style: none;
+}
+nav .nav-section ul li {
+  display: inline-block;
+  margin-left: 2rem;
+}
+nav .nav-section ul li a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #000;
+  padding-inline: 17px;
+  padding-block: 5px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+nav .nav-brand a:hover {
+  cursor: pointer;
+  color: #ffffff;
+}
+nav .nav-section ul li a:hover {
+  padding-inline: 17px;
+  padding-block: 5px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  color: #000;
+}
+
+/* End Navbar */
+
+/* Header */
+
+header {
+  display: flex;
+  color: #263238;
+  background: #1fe7c6a8;
+  padding-top: 75px;
+}
+header .bagian-satu {
+  flex-basis: 50%;
+  padding: 11%;
+}
+header .bagian-satu .text-hello {
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  font-weight: 600;
+}
+header .bagian-satu p {
+  font-size: 1.5rem;
+}
+header .bagian-satu .btn-info {
+  margin-top: 1.5rem;
+  padding: 1rem 4rem;
+  font-size: 1.5rem;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  transition: all 0.3s;
+}
+header .bagian-satu .btn-info:hover {
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
+  transform: scale(0.95);
+  cursor: pointer;
+}
+.btlink{
+  color: white;
+  text-decoration: none;
+}
+header .bagian-dua {
+  flex-basis: 50%;
+  margin-top: 2%;
+  margin-right: 10%;
+}
+
+/* End Header */
+
+content #contact{
+  font-size: 25px;
+  background-image: linear-gradient(180deg, #9f9d9d, #3c3b3b);
+}
+content #contact h1{
+  display: block;
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+}
+#bawah{
+  height: auto;
+  padding: 35px 0px;
+  margin: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+#email{
+  margin-right: 235px;
+}
+#_email{
+  margin: 0px 50px;
+}
+content #contact img{
+  width: 38px;
+  margin-right: -30px;
+}
+span{
+  display: flex;
+  padding: 35px 35px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.3);
+}
+span div{
+  display: block;
+}
+.unpad{
+  padding: 0px;
+  box-shadow: none;
+}
+#left{
+  justify-content: unset;
+}
+.no-garis{
+  color: black;
+  text-decoration: none;
+}
+.no-garis:hover{
+  text-decoration: underline;
+  color: black;
+}
+.judulhome{
+  text-align: center;
+  align-self: center;
+}
+.zero{
+  background-image: linear-gradient(0deg, rgb(25, 211, 109), rgb(21, 175, 90));
+  justify-content: space-between;
+}
+.satu{
+  background-image: linear-gradient(45deg, #42cb15, #53ff1a);
+}
+.dua{
+  background-image: linear-gradient(45deg, #002966, #4d94ff);
+}
+.tiga{
+  background-image: linear-gradient(45deg, rgb(189, 152, 18),rgb(252, 255, 42)) ;
+}
+span div h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 30px;
+}
+span div p{
+  font-size: 20px;
+}
+span img{
+  width: 200px;
+  height: auto;
+  padding-right: 35px;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1024px) {
+  nav {
+    padding: 2.4rem 8rem;
+  }
+
+  header .bagian-satu {
+    padding: 8%;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 2rem 4rem;
+  }
+
+  nav .nav-section ul li a,
+  header .bagian-satu p,
+  header .bagian-satu .btn-info {
+    font-size: 1.2rem;
+  }
+
+  header .bagian-satu {
+    padding: 10% 6%;
+  }
+
+  header .bagian-satu .text-hello {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  nav .nav-brand {
+    margin: auto;
+  }
+
+  nav .nav-section {
+    display: none;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  header .bagian-satu {
+    order: 2;
+    text-align: center;
+  }
+
+  header .bagian-dua {
+    order: 1;
+    margin: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  header .bagian-satu .text-hello {
+    font-size: 2.8rem;
+  }
+}

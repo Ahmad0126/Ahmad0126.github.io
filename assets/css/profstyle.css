@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+  }
+  html {
+    margin: auto;
+    max-width: 1440px;
+    font-size: 10px;
+    scroll-behavior: smooth;
+  }
+  
+  /* Navbar */
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 84%;
+    padding: 2.4rem 14rem;
+    color: #263238;
+    background: rgb(25, 211, 109);
+    border-bottom: 1px solid rgb(25, 211, 109);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.3);
+  }
+  nav .nav-brand {
+    font-size: 16pt;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  nav .nav-brand a{
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s;
+}
+  nav .nav-section {
+    display: flex;
+    align-items: center;
+  }
+  nav .nav-section ul {
+    list-style: none;
+  }
+  nav .nav-section ul li {
+    display: inline-block;
+    margin-left: 2rem;
+  }
+  nav .nav-section ul li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #000;
+    padding-inline: 17px;
+    padding-block: 5px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+  }
+  nav .nav-brand a:hover {
+  cursor: pointer;
+  color: #ffffff;
+  }
+  nav .nav-section ul li a:hover {
+    padding-inline: 17px;
+    padding-block: 5px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #000;
+  }
+  
+  /* End Navbar */
+
+div{
+  padding-top: 100px;
+}
+span{
+  display: flex;
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+  padding-top: 35px;
+}
+#satu{
+  margin-bottom: 25px;
+}
+p{
+  font-size: 20px;
+  padding: 0px 35px;
+}
+ul li{
+  display: inline;
+}
+.but{
+  margin : 10px 30px;
+}
+ul li a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #000;
+  padding-inline: 17px;
+  padding-block: 5px;
+  background-color: #6be320;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+ul li a:hover{
+  padding-inline: 17px;
+  padding-block: 5px;
+  background-color: #5dad2b;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  color: #000;
+}
+img{
+  height: 512px;
+}
+.dua{
+  justify-content: center;
+}
+.satu{
+  padding: 0px;
+}
