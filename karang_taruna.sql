@@ -18,13 +18,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `karang_taruna`
---
-CREATE DATABASE IF NOT EXISTS `karang_taruna` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `karang_taruna`;
+-- Database: `karang_taru`;
 
 -- --------------------------------------------------------
-
+USE `if0_34534941_karang_taruna`;
 --
 -- Table structure for table `anggota`
 --
